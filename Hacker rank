@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() 
+{
+   int billamt,amtgiven;
+   int quo,rem;
+   scanf("%d%d",&amtgiven,&billamt);        
+   quo=amtgiven/billamt;
+   rem=amtgiven%billamt;
+   printf("Quotient:%d\n",quo);
+   printf("Remainder:%d\n",rem);
+   return 0;   
+}
